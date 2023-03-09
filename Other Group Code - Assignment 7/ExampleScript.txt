@@ -1,0 +1,36 @@
+load src/images/cat.jpg cat
+brighten 50 cat cat-brighter
+darken 50 cat-brighter cat-darker
+vertical-flip cat cat-vertical
+horizontal-flip cat cat-horizontal
+horizontal-flip cat-vertical cat-vertical-horizontal
+value-component cat cat-greyscale-value
+intensity-component cat cat-greyscale-intensity
+luma-component cat cat-greyscale-luma
+red-component cat cat-greyscale-red
+green-component cat cat-greyscale-green
+blue-component cat cat-greyscale-blue
+blur cat cat-blur
+blur cat-blur cat-blur-2
+sharpen cat cat-sharpen
+sharpen cat-sharpen cat-sharpen-2
+sepia cat cat-sepia
+greyscale cat cat-greyscale
+save res/cat.ppm cat
+save res/cat-brighter.ppm cat-brighter
+save res/cat-darker.ppm cat-darker
+save res/cat-vertical.ppm cat-vertical
+save res/cat-vertical-horizontal.ppm cat-vertical-horizontal
+save res/cat-greyscale-value.ppm cat-greyscale-value
+save res/cat-greyscale-intensity.ppm cat-greyscale-intensity
+save res/cat-greyscale-luma.ppm cat-greyscale-luma
+save res/cat-greyscale-red.ppm cat-greyscale-red
+save res/cat-greyscale-green.ppm cat-greyscale-green
+save res/cat-greyscale-blue.ppm cat-greyscale-blue
+save res/cat-blur.ppm cat-blur
+save res/cat-blur-2.ppm cat-blur-2
+save res/cat-sharpen.bmp cat-sharpen
+save res/cat-sharpen-2.jpg cat-sharpen-2
+save res/cat-greyscale.jpg cat-greyscale
+save res/cat-sepia.png cat-sepia
+quit

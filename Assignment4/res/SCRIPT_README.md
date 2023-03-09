@@ -1,0 +1,1 @@
+# Assuming that this should not be the case, it should be known that the script file will only work if the terminal's directory is the same as the directory in which the JAR file and PPM folder are located. We were unable to figure out how to get it to work with relative paths without having the terminal's directory changed.

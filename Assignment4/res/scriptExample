@@ -1,0 +1,30 @@
+load PPM/sign.ppm sign
+red-component sign redSign
+green-component sign greenSign
+blue-component sign blueSign
+value-component sign valueSign
+luma-component sign lumaSign
+intensity-component sign iSign
+horizontal-flip sign hSign
+vertical-flip sign vSign
+brighten 25 sign bSign
+brighten -25 sign dSign
+blur sign blurredSign
+sharpen sign sharpSign
+greyscale sign greySign
+sepia sign sepiaSign
+save scriptOutput/redSign.ppm redSign
+save scriptOutput/greenSign.ppm greenSign
+save scriptOutput/blueSign.ppm blueSign
+save scriptOutput/valueSign.ppm valueSign
+save scriptOutput/lumaSign.ppm lumaSign
+save scriptOutput/iSign.ppm iSign
+save scriptOutput/hSign.ppm hSign
+save scriptOutput/vSign.ppm vSign
+save scriptOutput/bSign.ppm bSign
+save scriptOutput/dSign.ppm dSign
+save scriptOutput/blurredSign.ppm blurredSign
+save scriptOutput/sharpSign.ppm sharpSign
+save scriptOutput/sepiaSign.ppm sepiaSign 
+save scriptOutput/greySign.ppm greySign
+q
